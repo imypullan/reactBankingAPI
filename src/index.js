@@ -3,15 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Main from './Components/Main';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
       <div className="bankingAPIBody">
           <Header />
+          <Main />
           <Footer />
       </div>
-
   </React.StrictMode>,
   document.getElementById('root')
 );

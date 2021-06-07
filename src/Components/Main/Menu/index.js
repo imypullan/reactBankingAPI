@@ -9,7 +9,10 @@ class Menu extends React.Component {
     render() {
         return (
             <div>
-
+                <p>
+                    Writing
+                </p>
+                <p> Writing </p>
             </div>
         )
     }

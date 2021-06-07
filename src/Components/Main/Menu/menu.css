@@ -1,9 +1,0 @@
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-.displayGraphics {
-    width: 30%;
-    background: #0c4271;
-}

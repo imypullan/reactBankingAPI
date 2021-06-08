@@ -10,11 +10,20 @@
 }
 
 .accountBox span {
-    text-align: right;
     border-bottom: 1px solid black;
+    padding-left: 5px;
 }
 
 .accountBox label {
     border-bottom: 1px solid #000;
     border-right: 1px solid #000;
+    font-weight: bold;
+}
+
+.accountBox .nameLabel {
+    border-top: 1px solid #000;
+}
+
+.accountBox .nameSpan {
+    border-top: 1px solid #000;
 }

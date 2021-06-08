@@ -1,3 +1,8 @@
-h2 {
+
+
+.activityTitle h2 {
     text-align: center;
+    color: #f0ebcc;
+    font-size: 2rem;
+    background: #3f3697;
 }

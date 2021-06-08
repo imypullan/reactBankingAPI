@@ -1,7 +1,7 @@
 import React from 'react'
 import './main.css'
 import Menu from './Menu'
-// import DisplayContainer from "./DisplayContainer";
+import DisplayContainer from "./DisplayContainer";
 
 class Main extends React.Component {
     constructor(props) {
@@ -14,7 +14,7 @@ class Main extends React.Component {
                 <div className="displayGraphicsDark"></div>
                 <div className="displayGraphicsMid"></div>
                 <div className="displayGraphicsLight"></div>
-                <Menu />
+                <DisplayContainer />
             </main>
         )
     }

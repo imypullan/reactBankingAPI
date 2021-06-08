@@ -5,11 +5,11 @@ footer {
     background: #f0ebcc;
 }
 
-span {
+footer span {
     float: right;
     padding: 10px 15px;
 }
 
-.homeIcon {
+footer .homeIcon {
     font-size: 2rem;
 }

@@ -2,10 +2,10 @@ import React from 'react'
 import './accountBox.css'
 
 const AccountBox = (props) =>
-    <div>
-        <h5>Name:</h5>
+    <div className="accountBox">
+        <label>Name:</label>
         <span>{props.name}</span>
-        <h5>Balance:</h5>
+        <label>Balance:</label>
         <span>£{props.balance}</span>
     </div>
 

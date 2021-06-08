@@ -5,16 +5,16 @@
     border-radius: 5px;
 }
 
-a {
+menuItem a {
     text-decoration: none;
     color: #3f3697;
     cursor: pointer;
 }
 
-a:hover {
+menuItem a:hover {
     cursor: pointer;
 }
 
-label {
+goForm label {
     margin-right: 75px;
 }

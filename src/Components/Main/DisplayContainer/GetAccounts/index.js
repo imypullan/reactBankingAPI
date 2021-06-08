@@ -29,8 +29,7 @@ class GetAccounts extends React.Component {
                     <div className="accountsDisplay">
                         {this.state.accounts.map(account =>
                             (
-                                <span>Name: {account.name}
-                                Balance: {account.balance}</span>
+                               <AccountBox name={account.name} balance={account.balance} />
                             ))}
                     </div>
                 )

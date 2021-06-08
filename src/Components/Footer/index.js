@@ -10,7 +10,7 @@ class Footer extends React.Component {
     render() {
         return (
             <footer>
-                go back
+                <span><i className="fas fa-home homeIcon"></i></span>
             </footer>
         )
     }

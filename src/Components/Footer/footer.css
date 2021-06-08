@@ -4,3 +4,12 @@ footer {
     bottom: 0;
     background: #f0ebcc;
 }
+
+span {
+    float: right;
+    padding: 10px 15px;
+}
+
+.homeIcon {
+    font-size: 2rem;
+}

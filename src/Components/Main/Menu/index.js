@@ -1,6 +1,6 @@
 import React from 'react'
 import './menu.css'
-import GoForm from "./Components/GoForm";
+import GoForm from "../Components/GoForm";
 
 class Menu extends React.Component {
     constructor(props) {

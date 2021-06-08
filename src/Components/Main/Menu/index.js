@@ -1,5 +1,6 @@
 import React from 'react'
 import './menu.css'
+import GoForm from "./Components/GoForm";
 
 class Menu extends React.Component {
     constructor(props) {
@@ -9,10 +10,12 @@ class Menu extends React.Component {
     render() {
         return (
             <div>
-                <p>
-                    Writing
-                </p>
-                <p> Writing </p>
+                <GoForm />
+                <GoForm />
+                <GoForm />
+                <GoForm />
+                <GoForm />
+                <GoForm />
             </div>
         )
     }

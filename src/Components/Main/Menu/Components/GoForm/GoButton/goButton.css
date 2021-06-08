@@ -1,0 +1,14 @@
+button {
+    float: right;
+    margin: 0 10px 0 25px;
+    border-radius: 5px;
+    border: none;
+    background: #3f3697;
+    color: #f0ebcc;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+label {
+    padding-left: 5px;
+}

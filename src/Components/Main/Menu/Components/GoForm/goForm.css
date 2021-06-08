@@ -1,0 +1,20 @@
+.menuItem {
+    padding: 12px 0;
+    margin: 10px 0;
+    background: #f0ebcc;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #3f3697;
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+label {
+    margin-right: 75px;
+}

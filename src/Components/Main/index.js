@@ -10,7 +10,9 @@ class Main extends React.Component {
     render() {
         return (
             <main>
-                <div className="displayGraphics">Vertical lines to go here</div>
+                <div className="displayGraphicsDark"></div>
+                <div className="displayGraphicsMid"></div>
+                <div className="displayGraphicsLight"></div>
                 <Menu />
             </main>
         )

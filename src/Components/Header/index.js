@@ -9,7 +9,7 @@ class Header extends React.Component {
     render() {
         return (
             <header>
-                <h1>BANK IT</h1>
+                <h1>BANKY MCBANKINTERFACE</h1>
             </header>
         )
     }

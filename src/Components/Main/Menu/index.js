@@ -9,13 +9,13 @@ class Menu extends React.Component {
 
     render() {
         return (
-            <div>
-                <GoForm />
-                <GoForm />
-                <GoForm />
-                <GoForm />
-                <GoForm />
-                <GoForm />
+            <div className="menuContainer">
+                <GoForm link="#" text="Get All Accounts"/>
+                <GoForm link="#" text="Get User by ID"/>
+                <GoForm link="#" text="Send Money"/>
+                <GoForm link="#" text="Add New User"/>
+                <GoForm link="#" text="Add/Remove Money"/>
+                <GoForm link="#" text="Remove User"/>
             </div>
         )
     }

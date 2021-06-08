@@ -1,11 +1,13 @@
 import React from 'react'
-import 'goForm.css'
+import './goForm.css'
 import GoButton from "./GoButton";
 
 const GoForm = (props) =>
-    <div>
-        <label for={props.name}>{props.text}</label>
-        <GoButton link="#" arrow="" />
-    </div>
+    <a href={props.link}>
+        <div className="menuItem">
+             <label for={props.text}>{props.text}</label>
+            <GoButton />
+        </div>
+    </a>
 
 export default GoForm

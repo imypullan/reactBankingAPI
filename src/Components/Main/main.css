@@ -1,9 +1,19 @@
 main {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 14fr;
 }
 
-.displayGraphics {
+.displayGraphicsDark {
     background: #0c4271;
+    height: 100%;
+}
+
+.displayGraphicsMid {
+    background: #3f3697;
+    height: 100%;
+}
+
+.displayGraphicsLight {
+    background: #61dafb;
     height: 100%;
 }

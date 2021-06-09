@@ -1,12 +1,12 @@
 import React from 'react'
 import './displayContainer.css'
 import ActivityTitle from "./Components/ActivityTitle";
-import GetAccounts from "./GetAccounts"
+import GetAccountById from "./GetIndivAccount";
 
 const DisplayContainer = () =>
     <div className="displayContainer">
         <ActivityTitle title="All accounts" />
-        <GetAccounts />
+        <GetAccountById />
     </div>
 
 
